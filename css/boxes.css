@@ -86,8 +86,14 @@ ul.align-items-stretch {
   align-items: stretch;
 }
 
+li.flex-order-1 {
+  order: 1; /* Default */
+  flex: 0 1 auto; /* Default */
+}
+
 li.flex-order-2 {
   order: 2;
+  flex: 0 1 25%;
 }
 
 /* Debug Layout */
