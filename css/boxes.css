@@ -6,11 +6,40 @@ ul {
   padding: 0;
   margin: 0;
   border: 2px dotted red;
+  display: flex;
 }
 li {
   border: 2px solid #999;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.flex-direction-example {
+  margin: 1rem 0 3rem;
+}
+
+ul.flex-direction-row {
+  flex-direction: row;
+}
+
+ul.flex-direction-column {
+  flex-direction: column;
+}
+
+ul.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+ul.flex-direction-column-reverse {
+  flex-direction: column-reverse;
+}
+
+ul.flex-wrap {
+  flex-wrap: wrap;
+}
+
+ul.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
 }
 
 /* Debug Layout */
