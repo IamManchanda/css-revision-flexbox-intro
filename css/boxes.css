@@ -14,8 +14,8 @@ li {
   padding: 0.5em;
 }
 
-.flex-direction-example {
-  margin: 1rem 0 3rem;
+.layout-example-container {
+  margin: 1rem 1rem 3rem;
 }
 
 ul.flex-direction-row {
@@ -40,6 +40,30 @@ ul.flex-wrap {
 
 ul.flex-wrap-reverse {
   flex-wrap: wrap-reverse;
+}
+
+ul.justify-content-flex-start {
+  justify-content: flex-start;
+}
+
+ul.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+ul.justify-content-center {
+  justify-content: center;
+}
+
+ul.justify-content-space-between {
+  justify-content: space-between;
+}
+
+ul.justify-content-space-around {
+  justify-content: space-around;
+}
+
+ul.justify-content-space-evenly {
+  justify-content: space-evenly;
 }
 
 /* Debug Layout */
